@@ -38,27 +38,33 @@ In this two weeks, you will use three AWS Products.
 ### Run Notebook in Amazon SageMaker
 
 
-**Step 1**  : After logging into your AWS console and search for "SageMaker”, then click to open the Amazon SageMaker panel.
+**Step 1**  : After logging into your AWS console and click the link for [Amazon SageMaker](https://console.aws.amazon.com/sagemaker/home?region=us-east-1#/notebook-instances/create)
 
-**Step 2** : Next, let us create a notebook instance.
+**Step 2** : Next, let us create a notebook instance and fill the name with `k12-interncamp-tsp-classical`
+
+![Notebook with name](/k12.interncamp.2021/images/notebook_name_classical.png)
 
 **Step 3** Select Instance type. SageMaker provides multiple instance types of different computational power and prices. When creating an instance, we can specify the instance name and choose its type. we choose ml.c5.2xlarge. With 8-core CPU, this instance is powerful enough for most of our chapters.
 
 **Step 4** Checkout the given GitHub Repo. A Jupyter notebook version of this book for fitting SageMaker is available at `https://github.com/xiaotinghe/TSP_Classical_Method`. We can specify this GitHub repository URL to let SageMaker clone this repository during instance creation.
 
+![Repo link](/k12.interncamp.2021/images/repo_link_classical.png)
+
 **Step 5** It may take a few minutes before the instance is ready. When it is ready, you can click on the “Open Jupyter” link.
+
+![notebook ready](/k12.interncamp.2021/images/notebook_ready_classical.png)
 
 **Step 6** After finishing your work, do not forget to stop the instance to avoid extra cost.
 
 ---
 ### Read through the Notebooks
 
-Please read through the Notebook carefully. Make sure you run Notebook to view the result for each step. 
+Please read through the Notebook carefully. Make sure you run Notebook to view the result for each step. Remember to do exercises at the last of each notebook.
 
 | No | The Given Classic Alorithms |
 | ---|:-------------:|
-| 1  | Permutation   |
-| 2  | Nearest neighbor   |
+| 1  | Nearest neighbor   |
+| 2  | Nearest insertion  |
 | 3  | 2-Opt  |
 
 ---
