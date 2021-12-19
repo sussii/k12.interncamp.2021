@@ -69,7 +69,7 @@ Where `[2, 3, 5, 4, 1, 6]` is the result of the second iteration and `[1, 2, 3, 
 
 
 ---
-### Videos for better understanding for quantum annealing
+### Videos for better understanding quantum annealing
 
 We have prepared some videos for you to better understand quantum annealing technology
 
