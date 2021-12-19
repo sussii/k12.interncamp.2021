@@ -63,11 +63,10 @@ Where `[2, 3, 5, 4, 1, 6]` is the result of the second iteration and `[1, 2, 3, 
 `onclick="tourConstruction('opt_3')"` 
 
 ---
-### For your reference (optional)
-Do you know the latest event about AWS? 
+### Videos for better understanding for quantum annealing
 
-* Checkout the [2021 Re:Invent](https://reinvent.awsevents.com/keynotes/?nc2=h_reik) , an annual event of AWS. 10-year Anniversary! 
-* Adam Selipsky's Keynote (~2h)
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=WGA2P_oH5Xc
-" target="_blank"><img src="http://img.youtube.com/vi/WGA2P_oH5Xc/0.jpg" 
-alt="Adam Selipsky's session" width="120" height="90" border="3" /></a>
+We have prepared some videos for you to better understand quantum annealing technology
+
+* [D-Wave Customer Applications Quantum Computing Qubits 2021 (13 minutes)](https://wx.mail.qq.com/ftn/download?func=3&key=cf9abe368478c411fde9193660313936b6b23f1362313936154a0f0f52060b0456501a0453520b1b04560e014f500904534803030109080f01530e0503010136491102454c52565b1d211a6103475c166400545e0c5e5559571c176312555842554567440d554c554445724e12505745590a59164c5c490224f9d0b7f3d039d809602671e347b9af8fccc5565b&code=0e76b196&k=cf9abe368478c411fde9193660313936b6b23f1362313936154a0f0f52060b0456501a0453520b1b04560e014f500904534803030109080f01530e0503010136491102454c52565b1d211a6103475c166400545e0c5e5559571c176312555842554567440d554c554445724e12505745590a59164c5c490224f9d0b7f3d039d809602671e347b9af8fccc5565b&fweb=1&cl=1)
+
+* [D-Wave Technology Update Product Expansion  (1.7 hours)](https://wx.mail.qq.com/ftn/download?func=3&key=cf9abe368478c411fde9193660313936b6b23f1362313936154a0f0f52060b0456501a0453520b1b04560e014f500904534803030109080f01530e0503010136491102454c52565b1d211a6103475c166400545e0c5e5559571c176312555842554567440d554c554445724e12505745590a59164c5c490224f9d0b7f3d039d809602671e347b9af8fccc5565b&code=0e76b196&k=cf9abe368478c411fde9193660313936b6b23f1362313936154a0f0f52060b0456501a0453520b1b04560e014f500904534803030109080f01530e0503010136491102454c52565b1d211a6103475c166400545e0c5e5559571c176312555842554567440d554c554445724e12505745590a59164c5c490224f9d0b7f3d039d809602671e347b9af8fccc5565b&fweb=1&cl=1)
