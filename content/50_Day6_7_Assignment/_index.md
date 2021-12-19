@@ -6,18 +6,23 @@ weight: 50
 
 # Day6-7 Assignment
 
-Day6-7, try to replace the data source with 10 cities in China, and then use 3-opt algorithm to solve the TSP problem in the project
+Day6-7, try to replace the data source , and then use 3-opt algorithm to solve the TSP problem in the project
 
 ### Learning Objcetives
-- Get familiar with pyTSP project
-- prepare data for the rest of days 
+- Replace the original data with other cities (<10), like cities in China
+- Add two buttons for classical and quantum methods
+- Add 3-opt algorithm for TSP with new data
 
 ### Deliver Result
-- Demo: Successfully implement 3-opt algorithm on chinese data and launch the project UI in browser
+- Demo: Successfully implement 3-opt algorithm and launch the project UI in browser
+![demo.exmple](/k12.interncamp.2021/images/demo.png)
 
 ---
+### Install the vs-code for the remaining project
 
-### Replace the data source with 10 cities in China
+**Step 1**  : Go to the [website](https://code.visualstudio.com/download) and download the right version for your system. Here, you should choose .deb for your Ubuntu system.
+
+### Replace the original data with other cities (<10), like cities in China
 
 **Step 1**  : Execute the following commands in the Terminal to pull latest project code
 
@@ -28,7 +33,7 @@ git pull -f
 
 Note: This will lose all current code changes.
 
-**Step 2**  : Find the longitude and latitude coordinates of 10 cities in China on the Internet. (Hint: `https://github.com/88250/city-geo`)
+**Step 2**  : Find the longitude and latitude coordinates cities on the Internet. (Hint: Take cities in China for instance,  `https://github.com/88250/city-geo`)
 
 **Step 3**  : Replace longitude and latitude coordinates and city name in `data/cities.json`.
 
@@ -36,7 +41,15 @@ Note: This will lose all current code changes.
 
 You need to replace each red box.
 
-### Implement 3-opt algorithm in project
+### Add two buttons for classical and quantum methods
+
+**Step 1**  : Open the html file in the project: `source/templates/index.html`
+
+**Step 2**  : Ref to `source/templates/index.html#L68`, add a button to call the 3-opt. You need to add the following actions for the button:
+
+`onclick="tourConstruction('opt_3')"` 
+
+### Add 3-opt algorithm for TSP with new data
 
 **Step 1**  : Open the python file in the project: `source/algorithms/local_optimization.py`
 
@@ -54,13 +67,6 @@ return tours
 
 Where `[2, 3, 5, 4, 1, 6]` is the result of the second iteration and `[1, 2, 3, 4, 5, 6]` is the result of final iteration.
 
-### Add 3-OPT button to UI
-
-**Step 1**  : Open the html file in the project: `source/templates/index.html`
-
-**Step 2**  : Ref to `source/templates/index.html#L68`, add a button to call the 3-opt. You need to add the following actions for the button:
-
-`onclick="tourConstruction('opt_3')"` 
 
 ---
 ### Videos for better understanding for quantum annealing
