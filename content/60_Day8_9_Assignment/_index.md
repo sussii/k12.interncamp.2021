@@ -9,7 +9,8 @@ weight: 60
 Day8-9 is for integrating the quantum computing algorithm
 
 ### Learning Objcetives
-- Get familiar with AWS Products
+
+- Get 
 - Set up development environment for the rest of days 
 - Understand the application of TSP problem in real-world through research
 - Onboarding to Quantum Computing

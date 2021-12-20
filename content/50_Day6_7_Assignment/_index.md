@@ -20,7 +20,7 @@ Day6-7, try to replace the data source , and then use 3-opt algorithm to solve t
 ---
 ### Install the vs-code for the remaining project
 
-**Step 1**  : Go to the [website](https://code.visualstudio.com/download) and download the right version for your system. Here, you should choose .deb for your Ubuntu system.
+**Step 1**  : Go to the [website](https://code.visualstudio.com/docs/setup/linux) and follow the steps to install vs-code in linux
 
 ### Replace the original data with other cities (<10), like cities in China
 
