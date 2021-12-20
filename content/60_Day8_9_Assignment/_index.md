@@ -10,31 +10,33 @@ Day8-9 is for integrating the quantum computing algorithm
 
 ### Learning Objcetives
 
-- Get 
-- Set up development environment for the rest of days 
-- Understand the application of TSP problem in real-world through research
-- Onboarding to Quantum Computing
+- Configure the AWS CLI
+- Implement the quantum method for your TSP problem
 
 ### Deliver Result
-- 1 PPT Slide: Find at least 5 real scenarios for the application of TSP 
-- 1 PPT Slide: Find at least 2 technologies for implementing quantum computing
-- Demo: Successfully setup environment and launch the project UI in browser
+- 1 PPT Slide: Test the quantum method for your TSP problem
 
 ---
 
-#### Get Familiar with AWS Products
+#### Configure the AWS CLI
 
-First, let's have an overview of AWS. Browse through [AWS Official Webpage](https://aws.amazon.com/). 
+**Step 1** : Log into Amazon Workspaces with the given code (please refer to your day1_assignment)
 
-* [What is Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/?nc1=f_cc)
-* [AWS Cloud Products](https://aws.amazon.com/products/) 
+**Step 2** : Open your terminal and use the following command to check your aws cli verion
 
-In this two weeks, you will use three AWS Products. 
+```
+aws --version
+```
 
- * [Amazon WorkSpaces](https://aws.amazon.com/workspaces/) is used as a host to run the python project.
- * [Amazon SageMaker](https://aws.amazon.com/sagemaker/) is used for running the given Notebooks, where you learn algorithms step-by-step.
- * [Amazon Braket](https://aws.amazon.com/braket/) is used for accessing quantum computing resources. 
+![aws.version](/k12.interncamp.2021/images/awscliversion.png)
 
+**Step 3** : Configure your own command line environment to interact with AWS services. Please replace **AWS Access Key ID** and **AWS Secret Access Key** with your own values (Contact your PM). You can set the default region to us-east-1
+
+```
+aws configure
+```
+
+![aws.configure](/k12.interncamp.2021/images/awsconfigure.png)
 
 ---
 
